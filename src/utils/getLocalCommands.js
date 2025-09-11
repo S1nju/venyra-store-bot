@@ -6,7 +6,7 @@ module.exports = (exceptions = []) => {
   let localCommands = [];
 
   const commandCategories = getallfiles(
-    path.join(__dirname, '..', 'commands'),
+    path.join(__dirname, '..', 'Commands'),
     true
   );
 
