@@ -12,7 +12,9 @@ module.exports = {
               'Unraveling Mysteries',
               'Enjoying the prizes'
             ]
-
+  setInterval(() => {
+                     console.log(`${client.user.tag} is still alive !!`);
+                  }, 1000*60*60*24);
           console.log(`${client.user.tag} is alive !!`);
                   
             setInterval(() => {
