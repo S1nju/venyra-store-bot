@@ -10,7 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@canvacord/beta": "^6.0.0-dev-3",
+    "canvacord": "^5.4.5",
     "chalk": "^4.1.0",
+    "discord-anti-spam": "^2.8.1",
     "discord.js": "^14.21.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0"
